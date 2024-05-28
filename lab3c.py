@@ -5,7 +5,7 @@
 def operate(number1, number2, operator):
     # Place logic in this function
     if operator == 'add':
-        return int(number1 + number2)
+        return number1 + number2
     elif operator == 'subtract':
         return number1 - number2
     elif operator == 'multiply':
